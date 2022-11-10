@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+   <h1>Cadastro da liga dos astronautas</h1>
+   <div>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name">
+   </div> 
+
+   <br>
+
+   <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <label for="password"> - Password</label>
+    <input type="password" id="password" name="password">
+   </div>
+
+   <br>
+
+   <div>
+    <label for="birthday">Data:</label>
+    <input type="date" id="birthday" name="birthday">
+    <label for="photo">- Foto:</label>
+    <input type="file" id="photo" name="photo">
+   </div>
+
+   <br>
+
+   <div>
+    <label for="nationality">Nacionalidade:</label>
+    <select name="nationality" id="nationality">
+        <option value="russian">Russa</option>
+        <option value="brasilian">Brasileira</option>
+        <option value="american">Americana</option>
+    </select>
+
+    <label for="genre">- Genêro:</label>
+    <label for="masculine">M</label>
+    <input type="radio" id="masculine" name="genre" value="masculine">
+    <label for="feminine">F</label>
+    <input type="radio" id="feminine" name="genre" value="feminine">
+   </div>
+
+   <br>
+
+   <div>
+    <p>Suas principais qualidades:</p>
+    <label for="int">Inteligência</label>
+    <input type="checkbox" id="int" name="int" value="inteligencia">
+    <label for="res">Resiliência</label>
+    <input type="checkbox" id="res" name="res" value="resiliencia">
+    <label for="educ">Educação</label>
+    <input type="checkbox" id="educ" name="educ" value="educaçao">
+   </div>
+
+   <br>
+
+   <div>
+    <textarea name="description" id="description" cols="30" rows="10" placeholder="Porqu você gostaria de ser um astronauta?"></textarea>
+   </div>
+
+   <br>
+
+   <div>
+    <input type="submit" value="Criar">
+
+   </div>
+</body>
+</html>
