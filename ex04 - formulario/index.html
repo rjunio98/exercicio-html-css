@@ -8,69 +8,71 @@
 </head>
 <body>
    <h1>Cadastro da liga dos astronautas</h1>
-   <div>
-    <label for="name">Nome:</label>
-    <input type="text" id="name" name="name">
-   </div> 
+   <form enctype="multipart/form-data">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name">
+        </div> 
 
-   <br>
+        <br>
 
-   <div>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email">
-    <label for="password"> - Password</label>
-    <input type="password" id="password" name="password">
-   </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="password"> - Password</label>
+            <input type="password" id="password" name="password">
+        </div>
 
-   <br>
+        <br>
 
-   <div>
-    <label for="birthday">Data:</label>
-    <input type="date" id="birthday" name="birthday">
-    <label for="photo">- Foto:</label>
-    <input type="file" id="photo" name="photo">
-   </div>
+        <div>
+            <label for="birthday">Data:</label>
+            <input type="date" id="birthday" name="birthday">
 
-   <br>
+            <label for="photo">- Foto:</label>
+            <input type="file" id="photo" name="photo">
+        </div>
 
-   <div>
-    <label for="nationality">Nacionalidade:</label>
-    <select name="nationality" id="nationality">
-        <option value="russian">Russa</option>
-        <option value="brasilian">Brasileira</option>
-        <option value="american">Americana</option>
-    </select>
+        <br>
 
-    <label for="genre">- Genêro:</label>
-    <label for="masculine">M</label>
-    <input type="radio" id="masculine" name="genre" value="masculine">
-    <label for="feminine">F</label>
-    <input type="radio" id="feminine" name="genre" value="feminine">
-   </div>
+        <div>
+            <label for="nationality">Nacionalidade:</label>
+            <select name="nationality" id="nationality">
+                <option value="russian">Russa</option>
+                <option value="brasilian">Brasileira</option>
+                <option value="american">Americana</option>
+            </select>
 
-   <br>
+            <label for="genre">- Genêro:</label>
+            <label for="masculine">M</label>
+            <input type="radio" id="masculine" name="genre" value="masculine">
+            <label for="feminine">F</label>
+            <input type="radio" id="feminine" name="genre" value="feminine">
+        </div>
 
-   <div>
-    <p>Suas principais qualidades:</p>
-    <label for="int">Inteligência</label>
-    <input type="checkbox" id="int" name="int" value="inteligencia">
-    <label for="res">Resiliência</label>
-    <input type="checkbox" id="res" name="res" value="resiliencia">
-    <label for="educ">Educação</label>
-    <input type="checkbox" id="educ" name="educ" value="educaçao">
-   </div>
+        <br>
 
-   <br>
+        <div>
+            <p>Suas principais qualidades:</p>
+            <label for="int">Inteligência</label>
+            <input type="checkbox" id="int" name="int" value="inteligencia">
+            <label for="res">Resiliência</label>
+            <input type="checkbox" id="res" name="res" value="resiliencia">
+            <label for="educ">Educação</label>
+            <input type="checkbox" id="educ" name="educ" value="educaçao">
+        </div>
 
-   <div>
-    <textarea name="description" id="description" cols="30" rows="10" placeholder="Porqu você gostaria de ser um astronauta?"></textarea>
-   </div>
+        <br>
 
-   <br>
+        <div>
+            <textarea name="description" id="description" cols="40" rows="10" placeholder="Porque você gostaria de ser um astronauta?" ></textarea>
+        </div>
 
-   <div>
-    <input type="submit" value="Criar">
+        <br>
 
-   </div>
+        <div>
+         <input type="submit" value="Criar">
+        </div>
+    </form>    
 </body>
 </html>
